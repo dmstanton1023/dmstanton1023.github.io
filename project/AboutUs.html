@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>NCAT Campus Outreach</title>
     <meta name="author" content="Devante Stanton">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -34,6 +34,20 @@
     </header>
 
     <main>
+
+            <div class="flip"><h2>Salvation Slider</h2>
+            <p class="salvation"> On a scale of 1 to 10, 1 being you have lived the worst possible life imaginable and 10 being you have lived a morally perfect life and have never done anything wrong, if you were to meet God and He judged you right now based off the life you have lived, how sure are you that you would pass His jugement and go to heaven?</p>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="10" value="5" class="slider" id="range_slider">
+                <p>Value: <span id="range_value"></span></p>
+            </div>
+
+            <div class="panel">
+            <h2> About Your Slider Answer </h2>
+            <p class="about_salvation">The truth is that if that slider wasn't at 10(and if you're being honest then it shouldn't), then you would not pass God's judgment. 1-9 earns us a one way ticket to hell, 10 is the only score worthy enough to enter heaven. Christ was the only one to ever earn a 10, and he has offered to share the reward of earning a 10 with you. It is only through Him can you be made right with God, because He was the only one able to stand righteous before God, and as a gift has given us that righteousness</p>
+            </div>
+            <script src="javascript.js"></script>
+
          <!-- Gospel Explanation -->
         <section id="gospel">
             <h2><u>The Gospel</u></h2>
@@ -53,10 +67,15 @@
                 John 3:16-21<br>
                 “For  God so loved  the world,   that he gave his only Son, that whoever believes in him should not  perish but have eternal life. For God did not send his Son into the world to condemn the world, but in order that the world might be saved through him. Whoever believes in him is not condemned, but whoever does not believe is condemned already, because he has not believed in the name of the only Son of God. And this is the judgment: the light has come into the world, and people loved the darkness rather than the light because their works were evil. For everyone who does wicked things hates the light and does not come to the light, lest his works should be exposed. But whoever does what is true comes to the light, so that it may be clearly seen that his works have been carried out in God.”
                 
-
-
             </p>
+
+            <div class="salvation_prayer">
+                <h2>Salvation Prayer</h2>
+                <p class="about-us">Do you desire to take your first step in accepting the Lord? If so click the button below for a prayer</p>
+                <button class="button" type="button" onclick="loadDoc()">Click Here</button>
+            </div>
             
+
         </section>
 
          <!-- Mission Statement -->
